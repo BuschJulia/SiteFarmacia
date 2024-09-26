@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo à esquerda e botões à direita */
+  align-items: center;
+  background-color: aqua; /* Adiciona cor de fundo à navbar */
+  padding: 10px 20px; /* Adiciona espaçamento interno */
+}
+
+.navbar img {
+  width: 40%; /* Mantém a largura da imagem */
+  max-width: 150px; /* Limita a largura máxima da imagem */
+}
+
+.navbar button {
+  margin-left: 20px; /* Espaçamento entre os botões */
+  background: transparent; /* Fundo transparente */
+  border: none; /* Remove bordas */
+  color: rgb(233, 0, 0); /* Cor do texto dos botões */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  font-weight: bold; /* Estilo em negrito para os botões */
+  padding: 10px 20px; /* Adiciona espaçamento interno */
+}
+
+.navbar button:hover {
+  color: darkblue; /* Altera a cor ao passar o mouse */
+}
