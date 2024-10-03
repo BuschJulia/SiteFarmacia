@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+nav {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    font-family: "Roboto", sans-serif;
+    background-color: var(--cor-2);
+    padding: 1rem; /* Adiciona um pouco de espaço ao redor */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+    margin-right: auto; /* Empurra os links para a direita */
+}
+
+.logo-container h1 {
+    font-family: 'Reem Kufi', sans-serif; /* Aplica a fonte Reem Kufi */
+    color: var(--cor-4); /* Usa a cor rosa definida como cor 4 */
+    font-size: 1.7rem; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0; /* Remove margens padrão */
+}
+
+img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem; /* Espaço entre a logo e o texto */
+}
+
+.links {
+    display: flex;
+}
+
+.links button {
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    margin: 0 1rem; /* Espaço horizontal entre os botões */
+    font-size: 1rem;
+    border-radius: 6px;
+    width: 7rem;
+    height: 2.5rem;
+}
+
+.links button:hover {
+
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    transition: 0.5s;
+}

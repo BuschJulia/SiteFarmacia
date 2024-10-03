@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+.home-container {
+    display: flex; /* Usa flexbox para alinhar itens na horizontal */
+    align-items: center; /* Alinha verticalmente os itens */
+    font-family: "Roboto", sans-serif;
+    background-color: var(--cor-2);
+    padding: 5rem; /* Adiciona espaço ao redor do nav */
+    justify-content: space-between; /* Espaça os itens de forma igual */
+}
+
+.text-container {
+    flex: 1; /* Permite que o container do texto ocupe o espaço restante */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.text-container p {
+    margin-top: 1rem; /* Espaçamento entre o h1 e o parágrafo */
+}
+
+.placa {
+    margin-left: auto; /* Faz a imagem "encostar" na margem direita */
+}
+
+.placa img {
+    width: 50rem; /* Largura da imagem da placa */
+    height: 35rem; /* Altura da imagem da placa */
+}
+
+h1 {
+    font-size: 3.5rem; /* Tamanho da fonte para o h1 */
+    margin: 0; /* Remove margens padrão */
+}
+
+p {
+    font-size: 1.56rem; /* Tamanho da fonte para o parágrafo */
+    margin: 0; /* Remove margens padrão */
+}
