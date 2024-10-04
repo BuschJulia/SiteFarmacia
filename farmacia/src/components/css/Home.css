@@ -24,6 +24,7 @@
 }
 
 .text-container p {
+    color: #ce1f3a;
     margin-top: 1rem; /* Espaçamento entre o h1 e o parágrafo */
 }
 
@@ -37,6 +38,7 @@
 }
 
 h1 {
+    color: #ce1f3a;
     font-size: 3.5rem; /* Tamanho da fonte para o h1 */
     margin: 0; /* Remove margens padrão */
 }

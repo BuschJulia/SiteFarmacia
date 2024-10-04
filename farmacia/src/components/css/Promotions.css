@@ -1,0 +1,16 @@
+.promotions {
+    background-color: #f9f9f9; /* Cor de fundo leve */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .promotions h2 {
+    color: #4CAF50; /* Cor que combina com a paleta da farmácia */
+  }
+  
+  .promotions ul {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+  }
+  

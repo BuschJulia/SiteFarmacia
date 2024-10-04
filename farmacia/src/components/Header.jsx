@@ -1,16 +1,14 @@
 import React from 'react';
-import logo from '/images/logo.png';
+import Logo from './Logo'; // Importe o novo componente
 import './css/Header.css';
 
 function Header() {
   return (
     <nav>
-      <div className="logo-container">
-        <img src={logo} alt="Logo da Farmácia" />
-        <h1>FARMÁRCIA</h1>
-      </div>
+      <Logo /> {Logo}
       
       <div className='links'>
+        <button>Promoções</button>
         <button>Home</button>
         <button>Sobre</button>
         <button>Contato</button>

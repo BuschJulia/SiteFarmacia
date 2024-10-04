@@ -21,10 +21,9 @@ nav {
     margin: 0; /* Remove margens padrão */
 }
 
-img {
-    height: 3rem;
-    width: 3rem;
-    margin-right: 1rem; /* Espaço entre a logo e o texto */
+.logo-container img {
+    max-width: 100px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 10px; /* Espaço entre logo e título */
 }
 
 .links {
